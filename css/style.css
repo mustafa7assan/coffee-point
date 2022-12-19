@@ -153,14 +153,14 @@ header {
 }
 /* Sign up Section */
 .sign-up {
-  height: 300px;
+  height: 400px;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 .sign-up .container {
   display: flex;
-  background-color: #521f11;
+  background-color: #33140b;
   padding: 50px;
   align-items: center;
   border-radius: 8px;
@@ -181,4 +181,20 @@ header {
   border-radius: 8px;
   color: white;
   margin-left: auto;
+  cursor: pointer;
+}
+/* Footer Section */
+footer {
+  background-color: #33140b;
+  padding: 20px;
+}
+footer .container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+footer .container a {
+  text-decoration: none;
+  color: white;
+  margin: 0 5px;
 }
