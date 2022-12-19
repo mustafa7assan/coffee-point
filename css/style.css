@@ -40,7 +40,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 10px;
+  padding: 20px 0;
 }
 .logo {
   font-size: 24px;
@@ -60,11 +60,11 @@ header {
   padding-bottom: 5px;
 }
 .navbar-links li a:hover {
-  border-bottom: 2px solid #33140b;
+  border-bottom: 2px solid #521f11;
 }
 /* Hero Section */
 .hero {
-  margin-top: 150px;
+  margin-top: 180px;
 }
 .hero .container {
   display: flex;
@@ -75,7 +75,7 @@ header {
 .hero-main-text {
   font-size: 48px;
   color: #f9faf8;
-  font-weight: 1000;
+  font-weight: 900;
 }
 .hero-secondary-text a {
   margin-top: 8px;
@@ -87,3 +87,75 @@ header {
   padding: 8px 16px;
   border-radius: 8px;
 }
+/* Coffee Type Section */
+.coffee-types {
+  color: #33140b;
+  margin-top: 30px;
+}
+.coffee-types h1 {
+  text-align: center;
+  font-size: 36px;
+  margin-bottom: 30px;
+  font-weight: 700;
+}
+.coffee-types .container {
+  display: flex;
+  justify-content: space-between;
+}
+.coffee {
+  width: 220px;
+  height: 300px;
+  color: white;
+  border-radius: 8px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.coffee-img {
+  height: 200px;
+  width: 100%;
+}
+.coffee-img img {
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.coffee-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #33140b;
+  font-weight: 600;
+  height: 100px;
+}
+/* Quote Section */
+.quote {
+  height: 400px;
+  background-image: url("/img/quote-img.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: black;
+  margin-top: 50px;
+  padding: 100px;
+}
+.quote blockquote {
+  line-height: 1.7;
+  width: 100%;
+  height: 100%;
+  font-size: 40px;
+  display: flex;
+  flex-direction: column;
+  color: white;
+}
+.quote blockquote .author {
+  align-self: flex-end;
+}
+/* Sign up Section */
+/* .sign-up {
+  height: 300px;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+} */
