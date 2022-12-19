@@ -30,7 +30,7 @@ header {
   width: 100%;
   /* background-color: #1f2937; */
   height: 100vh;
-  background-image: url("/img/hero-img.jpg");
+  background-image: url("../img/hero-img.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -131,7 +131,7 @@ header {
 /* Quote Section */
 .quote {
   height: 400px;
-  background-image: url("/img/quote-img.jpg");
+  background-image: url("../img/quote-img.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
